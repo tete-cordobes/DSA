@@ -11,4 +11,4 @@ requests_html==0.10.0
 setuptools==68.2.2
 streamlit==1.29.0
 streamlit_auth==0.1.7.1
-trafilatura==1.6.2
+trafilatura
