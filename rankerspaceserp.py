@@ -13,7 +13,7 @@ st.title('Buscador de Servicios en SpaceSerp')
 def extract_content(url):
     downloaded = trafilatura.fetch_url(url)
     if downloaded:
-        xml_complete = trafilatura.extract(downloaded, output_format="xml", include_comments=False)
+        xml_complete = trafilatura.extract(xml_content, xml_input=True)
         root = etree.fromstring(xml_complete)
         print(xml_complete)
         
